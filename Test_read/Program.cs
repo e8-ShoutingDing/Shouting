@@ -23,7 +23,6 @@ namespace Test_read
             bool e = a == DivertStatus.Success;
 
 
-
             //MemoryMappedIPCService memoryMappedIPCService = new MemoryMappedIPCService("/tmp/sharedfile", "EtherCatProtocol.json");
             //memoryMappedIPCService.InitIPC();
 
