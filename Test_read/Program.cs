@@ -20,7 +20,8 @@ namespace Test_read
             Program.DivertStatus a = DivertStatus.Sent;
             string b = null;
             bool c = a == DivertStatus.Failed;
-            
+            bool e = a == DivertStatus.Success;
+
 
 
             //MemoryMappedIPCService memoryMappedIPCService = new MemoryMappedIPCService("/tmp/sharedfile", "EtherCatProtocol.json");
@@ -41,8 +42,8 @@ namespace Test_read
             //Console.ReadKey();
 
             //test1.Running = false;
-  
-                
+
+
             //while (true)
             //{
             //    if (test1.IsExited)
